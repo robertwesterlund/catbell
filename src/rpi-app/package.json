@@ -1,0 +1,24 @@
+{
+  "name": "catbell",
+  "version": "1.0.0",
+  "description": "A proximity sensor system for alerting that the cat wants to come in, using Raspberry Pi, Azure IoTHub and other services.",
+  "main": "app.js",
+  "dependencies": {
+    "azure-iot-device": "^1.3.0",
+    "azure-iot-device-mqtt": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertwesterlund/catbell.git"
+  },
+  "author": "Robert Westerlund",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robertwesterlund/catbell/issues"
+  },
+  "homepage": "https://github.com/robertwesterlund/catbell#readme"
+}
