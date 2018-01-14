@@ -1,1 +1,3 @@
 node_modules
+src/rpi-app/**/*.js
+src/rpi-app/**/*.js.map
