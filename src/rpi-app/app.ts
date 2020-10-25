@@ -79,7 +79,8 @@ function sendProximityInfoToIotHub(proximityInfo: { isProximityDetected: boolean
     var data = {
         deviceTimestamp: new Date().toISOString(),
         messageType: messageType,
-        isProximityDetected: proximityInfo.isProximityDetected
+        isProximityDetected: proximityInfo.isProximityDetected,
+        reason: proximityInfo.reason
     };
     var message = new Message(JSON.stringify(data));
     message.properties.add('messageType', messageType);
